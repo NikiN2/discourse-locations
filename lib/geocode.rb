@@ -41,7 +41,7 @@ class Locations::Geocode
 
       # note: Mapquest does not support country code request resrictions
       case provider
-      when :nominatim, :location_iq
+      when :nominatim, :location_iq, :yandex
         country_key = 'countrycodes'
       when :mapzen
         country_key = 'boundary.country'

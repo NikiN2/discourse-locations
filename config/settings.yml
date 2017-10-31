@@ -24,6 +24,7 @@ plugins:
     client: true
     type: 'enum'
     choices:
+      - yandex
       - location_iq
       - mapbox
       - mapquest
