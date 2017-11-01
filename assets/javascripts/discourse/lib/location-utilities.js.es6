@@ -91,7 +91,7 @@ let providerDetails = {
   opencagedata: `<a href='https://opencagedata.com' target='_blank'>OpenCage Data</a>`,
   mapbox: `<a href='https://www.mapbox.com/' target='_blank'>Mapbox</a>`,
   mapquest: `<a href='https://developer.mapquest.com' target='_blank'>Mapquest</a>`,
-  yandex: `<a href='https://tech.yandex.ru/maps/geocoder/' target='_blank'>yandex</a>`
+  yandex: `<a href='https://tech.yandex.com/maps/geocoder/' target='_blank'>yandex</a>`
 };
 
 export { geoLocationSearch, geoLocationFormat, locationFormat, providerDetails };
